@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT ?? 8080;
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Hello, From the server V2 \n' });
+  res.json({ message: 'Hello, From the server V2 from Docker! \n' });
 }
 );
 
