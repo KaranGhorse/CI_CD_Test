@@ -21,4 +21,4 @@ jobs:
           script: |
             cd /home/ubuntu/CI_CD_Test
             git pull
-            docker-compose up -d --build
+            docker compose up -d --build
